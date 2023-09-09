@@ -85,28 +85,39 @@ new_dictionary = {
 # 9. Remember the list variable in step 2. 
 # a. Print the index at 3. Then comment it out
 # new_list = [1, 2, 3, 4, 5]
-# print(new_list[3])
+# print([new_list[3]])
 
 # b. Now print the index at 100. Does this error? comment it out
-# print(new_list[100])
+# print([new_list[100]])
 # It errors and says it is out of range.
 
 # e. Now print the index at -1 index. Observe what it prints. Then comment it out
-# print(new_list[-1])
+# print([new_list[-1]])
 
 # f. Now print the index at -100.  Does this error? comment it out
-# print(new_list[-100])
+# print([new_list[-100]])
 # error. list index out of range
 
 # 10. Write a FOR LOOP in python that prints each item in the list variable in step 2.  
 # The staring number MUST be a negative number. The ending number MUST be postive number
 # Looking to get each item printed once in order and then a second time in order
+# new_list.insert(0,0)
+new_list.insert(0, -1)
+# print([new_list])
 
-# 11. Write a WHILE LOOP in python that does the same thing as 10. 
+# for item in new_list:
+#     print(item)
+
+# 11. Write a WHILE LOOP in python that does the same thing as 10.
+counter = 0
+while (counter <1):
+    print(new_list)
+    counter += 1 
 
 # 12. For loops.
 # Write a FOR LOOP in python that prints each item in list variable in step 2.  
 # Hint: type this into google "loop python"
+
 
 # 13. Repeat step 12 but instead of the list variable, use the dictionary variable. 
 # Print each key
