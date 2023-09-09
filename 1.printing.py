@@ -105,22 +105,33 @@ new_dictionary = {
 new_list.insert(0, -1)
 # print([new_list])
 
-# for item in new_list:
-#     print(item)
+for item in new_list:
+    print(item)
 
 # 11. Write a WHILE LOOP in python that does the same thing as 10.
-counter = 0
-while (counter <1):
-    print(new_list)
-    counter += 1 
+# counter = 0
+# while (counter <1):
+#     print(new_list)
+#     counter += 1 
 
 # 12. For loops.
 # Write a FOR LOOP in python that prints each item in list variable in step 2.  
 # Hint: type this into google "loop python"
-
+# for item in new_list:
+#     print(item)
 
 # 13. Repeat step 12 but instead of the list variable, use the dictionary variable. 
 # Print each key
+for item in new_dictionary:
+    print(item)
 
 # 14. Repeat step 13. Instead of printing each key, print each value
 # Hint: google "dictionary values python"
+# new_dictionary = {
+#     "name": "Adrian",
+#     "age": 100,
+#     "married": True,
+#     "number_of_kids": 2
+# }
+for x in new_dictionary.values():
+    print(x)
