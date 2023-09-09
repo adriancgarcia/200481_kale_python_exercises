@@ -67,6 +67,10 @@ for x in range(5):
 # Now call that function using "Kyle" and "Winston" as the arguments 
 # invoke that function 4 more times
 
+def two_params(param1, param2):
+    print(param1 + " " + "and " + param2  + " rocks")
+two_params(param1="Kyle", param2="Winston")
+
 
 # Definitions:  
 # P is for Placeholder. P is for Parameters.
