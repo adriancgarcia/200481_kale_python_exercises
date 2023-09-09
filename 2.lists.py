@@ -27,19 +27,25 @@ print(four)
 
 # 5. Write a program that removes a specific element from a list by its value.
 five = [456, 942, 944, 762, 836, 451, 314, 559, 954, 211]
+five.remove(942)
+print("I removed 942 from", five)
 
 # 6. Write a program that removes a specific element from a list by its index.
 six = [993, 245, 896, 250, 226, 313, 918, 877, 793, 695]
+six.pop(0)
+print("I removed 0 from", six)
 
 # 7. Write a program that sorts a list of numbers in ascending order.
 seven = [887, 106, 368, 603, 35, 455, 728, 449, 108, 47]
-
+print(seven.sort())
+print(seven)
 
 # 8. Write a program that filters out all elements in a list that are less than a specified value.
 # use for loop and conditionals
 eight = [309, 122, 27, 240, 453, 174, 193, 649, 804, 171]
 threshold = 200
-
+result = list(filter(lambda item: item < 200, eight))
+print(result)
 
 # 9. Calculate and print the length (number of elements) of a given list.
 nine = [679, 697, 657, 171, 503, 582, 656, 82, 724, 796]
