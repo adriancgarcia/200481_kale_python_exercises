@@ -1,33 +1,33 @@
 
 # 1. Using the print method, print "Hello World"
 new_variable = "Hello World"
-print(new_variable)
+# print(new_variable)
 
 # 2. Create variables for the data type below. 
 # Data Types:
 # Int
 new_int = 1
-print(new_int)
+# print(new_int)
 
 # Float
 new_float = 1.0
-print(new_float)
+# print(new_float)
 
 # String
 new_string = "1, 2, 3, 4"
-print(new_string)
+# print(new_string)
 
 # Boolean 
 new_boo = True
-print(new_boo)
+# print(new_boo)
 
 # Boolean (The other boolean value)
 false_boo = False
-print(false_boo)
+# print(false_boo)
 
 # Lists ( 4 items in list min.)
 new_list = [1, 2, 3, 4, 5]
-print([new_list])
+# print([new_list])
 
 # Dictionaries  ( 4 key/value pairs min.)
 new_dictionary = {
@@ -36,7 +36,7 @@ new_dictionary = {
     "married": True,
     "number_of_kids": 2
 }
-print(new_dictionary)
+# print(new_dictionary)
 
 # 3. For each of the variables, use the print method for each variable. To print each varible
 
@@ -45,11 +45,15 @@ print(new_dictionary)
 # 4. Backtick ` in JS are used for Template literals. In a JS file a variable called intVariable and stringVariable exist.
 # They are equal to the int and string variables on step 2.
 # What is the python equvalent for: console.log(`int: ${intVariable}, string ${stringVariable}`)
+print("5" + str(6))
+
 
 # 5. Comment out all print statements up to this point
 
 # 6. Write a FOR LOOP in python that prints "David Rocks" 5 times
 # Hint: type this into google "loop range python"
+
+
 
 # 7. Declare a function what print "Alex Rocks". Invoke that function 5 times. 
 
