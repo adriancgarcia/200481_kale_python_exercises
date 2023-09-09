@@ -2,18 +2,28 @@
 
 # 1. Write a program that sum of all elements:
 one = [613, 955, 291, 497, 562, 483, 165, 210, 864, 789]
+sum = sum(one)
+print(sum)
 
 # 2.  Write a program that find the largest element:
 two = [386, 850, 274, 316, 526, 937, 998, 249, 269, 922]
+# two.sort()
+# print(two[-1])
+print(max(two))
 
 # 3. Write a program that duplicates that doubles the value of each elements in the list:
 # for example: [1,2,3] should result in [2,4,6]
 three = [211, 36, 295, 455, 147, 977, 381, 253, 327, 617]
+from functools import reduce
+print(str(three))
+res = reduce (lambda x, y: x + [y*2], three, [])
+print(str(res))
 
 # 4. Write a program that concatenates these two list into a single list:
 four_a = [582, 427, 534, 143, 567, 604, 12, 48, 686, 825]
 four_b = [357, 728, 406, 989, 380, 800, 201, 410, 452, 141]
-
+four = four_a + four_b
+print(four)
 
 # 5. Write a program that removes a specific element from a list by its value.
 five = [456, 942, 944, 762, 836, 451, 314, 559, 954, 211]
