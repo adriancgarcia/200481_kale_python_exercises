@@ -57,19 +57,20 @@ new_dictionary = {
 
 # 7. Declare a function what print "Alex Rocks". Invoke that function 5 times. 
 
-def alex_teacher():
-    print("Alex Rocks")
-for x in range(5):
-    print("Alex Rocks")
+# def alex_teacher():
+#     print("Alex Rocks")
+# for x in range(5):
+#     print("Alex Rocks")
 
 # 8. Declare a function that takes in 2 parameters. 
 # It will print "P1(your parameter1) and P2(your parameter2) Rocks"
 # Now call that function using "Kyle" and "Winston" as the arguments 
 # invoke that function 4 more times
 
-def two_params(param1, param2):
-    print(param1 + " " + "and " + param2  + " rocks")
-two_params(param1="Kyle", param2="Winston")
+# def two_params(param1, param2):
+    # print(param1 + " " + "and " + param2  + " rocks")
+# two_params(param1="Kyle", param2="Winston")
+# two_params("Kyle", "Winston")
 
 
 # Definitions:  
@@ -83,9 +84,19 @@ two_params(param1="Kyle", param2="Winston")
 
 # 9. Remember the list variable in step 2. 
 # a. Print the index at 3. Then comment it out
+# new_list = [1, 2, 3, 4, 5]
+# print(new_list[3])
+
 # b. Now print the index at 100. Does this error? comment it out
+# print(new_list[100])
+# It errors and says it is out of range.
+
 # e. Now print the index at -1 index. Observe what it prints. Then comment it out
+# print(new_list[-1])
+
 # f. Now print the index at -100.  Does this error? comment it out
+# print(new_list[-100])
+# error. list index out of range
 
 # 10. Write a FOR LOOP in python that prints each item in the list variable in step 2.  
 # The staring number MUST be a negative number. The ending number MUST be postive number
