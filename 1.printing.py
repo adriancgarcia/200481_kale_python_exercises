@@ -45,22 +45,28 @@ new_dictionary = {
 # 4. Backtick ` in JS are used for Template literals. In a JS file a variable called intVariable and stringVariable exist.
 # They are equal to the int and string variables on step 2.
 # What is the python equvalent for: console.log(`int: ${intVariable}, string ${stringVariable}`)
-print("5" + str(6))
+# print("5" + str(6))
 
 
 # 5. Comment out all print statements up to this point
 
 # 6. Write a FOR LOOP in python that prints "David Rocks" 5 times
 # Hint: type this into google "loop range python"
-
-
+# for x in range(5):
+#     print("David Rocks")
 
 # 7. Declare a function what print "Alex Rocks". Invoke that function 5 times. 
+
+def alex_teacher():
+    print("Alex Rocks")
+for x in range(5):
+    print("Alex Rocks")
 
 # 8. Declare a function that takes in 2 parameters. 
 # It will print "P1(your parameter1) and P2(your parameter2) Rocks"
 # Now call that function using "Kyle" and "Winston" as the arguments 
 # invoke that function 4 more times
+
 
 # Definitions:  
 # P is for Placeholder. P is for Parameters.
